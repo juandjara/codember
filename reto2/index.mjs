@@ -8,7 +8,7 @@ for (const w of words) {
   let currentChar = ''
   for (const n of nums) {
     currentChar += n
-    if (Number(currentChar) >= 97) {
+    if (Number(currentChar) >= 50) {
       decodedWord += String.fromCharCode(currentChar)
       currentChar = ''
     }
